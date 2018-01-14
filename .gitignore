@@ -1,0 +1,8 @@
+#Files and extensions to ignore
+*.log
+*.swp
+[tT]humbs.db
+
+#Foldes to ignore
+node_modules
+coverage

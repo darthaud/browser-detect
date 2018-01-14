@@ -1,0 +1,11 @@
+{
+  "name": "browser-detect",
+  "version": "0.1.0",
+  "description": "Javascript library for discovery browser infos",
+  "main": "dist/js/browser-detect.js",
+  "repository": "git@github.com:darthaud/browser-detect.git",
+  "author": "Daniel Arthaud <daniel@vizir.com.br>",
+  "license": "MIT",
+  "scripts": {
+  }
+}
