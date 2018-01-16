@@ -7,5 +7,9 @@
   "author": "Daniel Arthaud <daniel@vizir.com.br>",
   "license": "MIT",
   "scripts": {
+    "lint": "standard 'src/**/*.js'"
+  },
+  "devDependencies": {
+    "standard": "^10.0.3"
   }
 }
