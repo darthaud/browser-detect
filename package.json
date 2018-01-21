@@ -7,10 +7,15 @@
   "author": "Daniel Arthaud <daniel@vizir.com.br>",
   "license": "MIT",
   "scripts": {
-    "lint": "standard 'src/**/*.js'"
     "coverage": "istanbul check-coverage",
+    "lint": "standard 'src/**/*.js' 'spec/**/*.js'",
     "test": "istanbul cover _mocha -- --opts spec/mocha.opts",
     "test::watch": "_mocha -w -- --opts spec/mocha.opts"
+  },
+  "standard": {
+    "env": [
+      "mocha"
+    ]
   },
   "devDependencies": {
     "chai": "^4.1.2",
