@@ -8,6 +8,9 @@
   "license": "MIT",
   "scripts": {
     "lint": "standard 'src/**/*.js'"
+    "coverage": "istanbul check-coverage",
+    "test": "istanbul cover _mocha -- --opts spec/mocha.opts",
+    "test::watch": "_mocha -w -- --opts spec/mocha.opts"
   },
   "devDependencies": {
     "chai": "^4.1.2",
